@@ -6,8 +6,15 @@ import os
 # File utilities
 
 def read_file(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return f.read()
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return f.read()
+    except FileNotFoundError:
+        print(f"Error: File '{path}' not found.")
+        return None
+    except Exception as e:
+        print(f"Error reading file: {e}")
+        return None
 
 
 def get_git_diff():
@@ -73,6 +80,9 @@ def ask_ai(prompt):
 
 def explain_code(file_path):
     code = read_file(file_path)
+
+    if code is None:
+        return
 
     prompt = f"""
 You are a senior software engineer.

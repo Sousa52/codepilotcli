@@ -112,9 +112,3 @@ codepilotcli/
 ├── setup.py
 ├── README.md
 └── test.py
-
----
-
-## 📜 License
-
-MIT

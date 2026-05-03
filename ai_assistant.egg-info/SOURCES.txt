@@ -1,0 +1,8 @@
+setup.py
+ai_assistant/__init__.py
+ai_assistant/cli.py
+ai_assistant.egg-info/PKG-INFO
+ai_assistant.egg-info/SOURCES.txt
+ai_assistant.egg-info/dependency_links.txt
+ai_assistant.egg-info/entry_points.txt
+ai_assistant.egg-info/top_level.txt

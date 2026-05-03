@@ -1,2 +1,0 @@
-[console_scripts]
-ai = ai_assistant.cli:main

@@ -11,10 +11,10 @@ No API keys. No cloud. Fully local.
 
 ##  Features
 
-- 📄 Explain any Python file in simple English  
-- 🧾 Generate clean, professional git commit messages  
-- 🧠 Summarize entire codebases instantly  
-- ⚡ Fully local AI (via Ollama)
+-  Explain any Python file in simple English  
+-  Generate clean, professional git commit messages  
+-  Summarize entire codebases instantly  
+-  Fully local AI (via Ollama)
 
 ---
 
